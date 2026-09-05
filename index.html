@@ -14,7 +14,7 @@
         <div>
           <p class="eyebrow">PROPOSAL TOOL</p>
           <h1>Google Business Profile Audit</h1>
-          <p class="header-copy">Complete the checklist and create a clear client proposal.</p>
+          <p class="header-copy">Review the public profile and create a clear client proposal.</p>
         </div>
       </header>
 
@@ -33,6 +33,8 @@
           <label>Location / Service Area<input id="businessLocation" placeholder="e.g. Birmingham, UK" /></label>
           <label>Phone Number<input id="businessPhone" placeholder="e.g. +44 000 000 0000" /></label>
           <label>Website<input id="businessWebsite" type="url" placeholder="https://example.com" /></label>
+          <label class="full-field">Google Maps / GBP Link<input id="businessGmbLink" type="url" placeholder="https://maps.google.com/..." /></label>
+          <div class="profile-link-action full-field"><button class="button button-secondary" id="openGmb" type="button">Open Public GBP Profile</button><span>Use the public profile to complete the checklist below.</span></div>
         </form>
       </section>
 
@@ -43,7 +45,7 @@
             <h2>Audit Checklist</h2>
             <p class="section-copy">Choose Yes or No for every item. Add evidence so the client understands the finding.</p>
           </div>
-          <div class="live-summary"><strong id="liveScore">0%</strong><span id="liveCount">0/37 Complete</span></div>
+          <div class="live-summary"><strong id="liveScore">0%</strong><span id="liveCount">0/30 Reviewed</span></div>
         </div>
         <div id="auditList"></div>
       </section>
